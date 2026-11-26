@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" role="img" aria-label="Firmo">
+  <rect width="20" height="20" rx="5" fill="#064e3b" />
+  <path d="M5 13 L8.5 9.5 L11 11.5 L15 7" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="15" cy="7" r="1.5" fill="#34d399" />
+</svg>

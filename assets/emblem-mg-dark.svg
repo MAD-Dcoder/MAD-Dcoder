@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" role="img" aria-label="Betim, Minas Gerais">
+  <rect width="44" height="44" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.2" />
+  <circle cx="30" cy="14" r="4.5" fill="#34d399" opacity="0.9" />
+  <path d="M6 34 L16 19 L23 27 L29 21 L38 34 Z" fill="#238636" opacity="0.85" />
+  <path d="M6 34 L16 19 L21 25 L14 34 Z" fill="#34d399" opacity="0.45" />
+</svg>

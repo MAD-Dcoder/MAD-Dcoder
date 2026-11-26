@@ -6,7 +6,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=34D399&height=120&section=header" alt="header" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=24&duration=4000&pause=800&color=34D399&width=640&lines=Hello%2C+it's+Matheus+Aur%C3%A9lio!;Data+%26+Chain+of+Custody+Analyst+%40+Amazon;Full-Stack+Developer+%7C+C%23+.NET+%26+React;Computer+Vision+%7C+Python+%26+YOLOv8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=24&duration=4000&pause=800&color=34D399&width=640&lines=Hi%2C+i'm+Matheus+Aur%C3%A9lio!;Data+%26+Chain+of+Custody+Analyst+%40+Amazon;Full-Stack+Developer+%7C+C%23+.NET+%26+React;Computer+Vision+%7C+Python+%26+YOLOv8" alt="Typing SVG" />
 </a>
 
 <div>

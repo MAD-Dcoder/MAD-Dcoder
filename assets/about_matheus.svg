@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="310" viewBox="0 0 760 310" role="img" aria-label="About Matheus Aurélio Terminal">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
+      .bar { fill: #161b22; }
+      .title { fill: #8b949e; font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 12px; font-weight: 600; }
+      .mono { font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 13.5px; }
+      .prompt { fill: #34d399; font-weight: 700; }
+      .cmd { fill: #e6edf3; font-weight: 600; }
+      .out { fill: #a5d6ff; }
+      .hi { fill: #fde047; }
+      .muted { fill: #8b949e; }
+      .line { opacity: 0; animation: fadeIn 0.35s ease forwards; }
+      .l1 { animation-delay: 0.2s; }
+      .l2 { animation-delay: 0.9s; }
+      .l3 { animation-delay: 1.6s; }
+      .l4 { animation-delay: 2.3s; }
+      .l5 { animation-delay: 3.0s; }
+      .l6 { animation-delay: 3.7s; }
+      .l7 { animation-delay: 4.4s; }
+      .cursor { fill: #34d399; animation: blink 1s step-end infinite; }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(3px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes blink {
+        0%, 50% { opacity: 1; }
+        51%, 100% { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- Window Frame -->
+  <rect class="bg" x="1" y="1" width="758" height="308" rx="12" />
+  <path class="bar" d="M 1 13 Q 1 1 13 1 L 747 1 Q 759 1 759 13 L 759 36 L 1 36 Z" />
+  <line x1="1" y1="36" x2="759" y2="36" stroke="#30363d" stroke-width="1" />
+
+  <!-- Traffic Lights -->
+  <circle cx="22" cy="18" r="6" fill="#ff5f56" />
+  <circle cx="42" cy="18" r="6" fill="#ffbd2e" />
+  <circle cx="62" cy="18" r="6" fill="#27c93f" />
+  <text class="title" x="380" y="22" text-anchor="middle">matheus@amazon-ops: ~/second-brain</text>
+
+  <!-- Terminal Content -->
+  <g class="line l1">
+    <text class="mono" x="24" y="68"><tspan class="prompt">➜ ~</tspan> <tspan class="cmd">whoami</tspan></text>
+    <text class="mono out" x="24" y="90">Matheus Aurélio · Betim, MG (Brazil) · Software Developer &amp; Data Analyst</text>
+  </g>
+
+  <g class="line l2">
+    <text class="mono" x="24" y="122"><tspan class="prompt">➜ ~</tspan> <tspan class="cmd">cat current_role.txt</tspan></text>
+    <text class="mono out" x="24" y="144">Data &amp; Chain of Custody Analyst @ <tspan class="hi">Amazon</tspan> (Logistics &amp; Loss Prevention)</text>
+  </g>
+
+  <g class="line l3">
+    <text class="mono muted" x="24" y="164">↳ End-to-end dock investigations, dashboards &amp; internal analysis tools (EN/PT)</text>
+  </g>
+
+  <g class="line l4">
+    <text class="mono" x="24" y="196"><tspan class="prompt">➜ ~</tspan> <tspan class="cmd">cat education.txt</tspan></text>
+    <text class="mono out" x="24" y="218">ADS @ PUC Minas (2027) · Electrical Automation @ CPET · DevFest BH Staff</text>
+  </g>
+
+  <g class="line l5">
+    <text class="mono" x="24" y="250"><tspan class="prompt">➜ ~</tspan> <tspan class="cmd">echo $MISSION</tspan></text>
+    <text class="mono out" x="24" y="272">"Build reliable software from requirement &amp; UML to cloud production."</text>
+  </g>
+
+  <g class="line l6">
+    <text class="mono" x="24" y="294"><tspan class="prompt">➜ ~</tspan></text>
+    <rect class="cursor" x="58" y="281" width="9" height="16" rx="1" />
+  </g>
+</svg>
